@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Innovaweb</title>
+    <link rel="icon" href="/wp-content/themes/innovaweb_theme/img/logo.png" type="image/png">
+    <title>Innova Web</title>
 
     <?php wp_head(); ?>
 
@@ -18,7 +18,10 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="<?php echo site_url("/")?>">Innova Web</a>
+        
+            <a class="navbar-brand" href="<?php echo site_url("/")?>">
+                <img class="logoimg" src="/wp-content/themes/innovaweb_theme/img/Logo1.png" alt="">
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,10 +36,10 @@
                         <a class="nav-link" href="<?php echo site_url("/")?>">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url("/services")?>">Servicios</a>
+                        <a class="nav-link" href="<?php echo site_url("/about")?>">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url("/about")?>">Sobre Nosotros</a>
+                        <a class="nav-link" href="<?php echo site_url("/services")?>">Servicios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url("/gallery")?>">Galería</a>
@@ -60,3 +63,11 @@
             </div>
         </div>
     </header>
+
+    <style>
+    .logoimg {
+        position: relative;
+        z-index: 0;
+        max-width: 125px;
+    }
+    </style>

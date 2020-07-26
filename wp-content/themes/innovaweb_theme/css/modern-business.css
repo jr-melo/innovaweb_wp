@@ -23,7 +23,7 @@ body {
 
 .tm-catalog-item-list { 
   justify-content: space-between; 
-  max-width: 924px;
+  max-width: 970px;
 }
 
 .tm-catalog-item {
@@ -38,3 +38,30 @@ body {
   top:20px;
 }
 
+.page-content{
+  font-size: larger;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mainrow {
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  margin-right:-15px;
+  margin-left:40px
+}
+
+.logoimg {
+  position: relative;
+  z-index: 0;
+  max-width: 30px;
+}
+
+/* -------------------------- */

@@ -4,12 +4,13 @@
 function load_stylesheets(){
   
     wp_register_style('bootstrap_stylesheet',get_stylesheet_directory_uri() . '/vendor/bootstrap/css/bootstrap.min.css',array(),false,"all");
-    //wp_register_style('fontawasome',get_stylesheet_directory_uri() . '/fontawesome/css/all.min.css',array(),false,"all");
     wp_register_style('template_stylesheet',get_stylesheet_directory_uri() . '/css/modern-business.css',array(),false,"all");
+    wp_register_style('extern_stylesheet',get_stylesheet_directory_uri() . '/css/mainstyle.css',array(),false,"all");
     wp_register_style('vendor',get_stylesheet_directory_uri() . '/vendor',array(),false,"all");
 
     wp_enqueue_style('bootstrap_stylesheet');
     wp_enqueue_style('template_stylesheet');
+    wp_enqueue_style('extern_stylesheet');
     wp_enqueue_style('vendor');
     wp_enqueue_style('google_fonts','//fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 }
