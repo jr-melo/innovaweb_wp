@@ -54,10 +54,9 @@
 
     <header>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('https://pixabay.com/get/57e2d54a4c56ac14f6d1867dda35367b1c3ad9ec5257724e_1920.jpg')">
+                <div class="carousel-item active" style="background-image: url('/wp-content/themes/innovaweb_theme/img/portada.jpg')">
                     <div class="carousel-caption d-none d-md-block"></div>
                 </div>
             </div>
