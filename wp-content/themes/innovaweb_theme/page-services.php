@@ -32,7 +32,7 @@ get_header();
                         </h2>
                     </div>
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="/wp-content/themes/innovaweb_theme/img/products-01.jpg" alt="">
+                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo site_url("/wp-content/themes/innovaweb_theme/img/products-01.jpg")?>" alt="">
                 <div class="product-item-description d-flex mr-auto">
                     <div class="bg-faded p-5 rounded">
                         <p class="mb-0">Diseñamos y desarrollamos su sitio web responsive (Su sitio web se vera igual de bien en dispositivos móviles y Tablets, etc) a medida para su empresa o negocio.</p>
@@ -52,7 +52,7 @@ get_header();
                         </h2>
                     </div>
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="/wp-content/themes/innovaweb_theme/img/products-02.jpg" alt="">
+                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo site_url("/wp-content/themes/innovaweb_theme/img/products-02.jpg")?>" alt="">
                 <div class="product-item-description d-flex ml-auto">
                     <div class="bg-faded p-5 rounded">
                         <p class="mb-0">En Innova Web le ofrecemos nuestros servicios de Instalación y configuración de todo tipo de redes, asi como también el mantenimiento de servidores de empresas.</p>
@@ -72,7 +72,7 @@ get_header();
                         </h2>
                     </div>
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="/wp-content/themes/innovaweb_theme/img/products-03.jpg" alt="">
+                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo site_url("/wp-content/themes/innovaweb_theme/img/products-03.jpg")?>" alt="">
                 <div class="product-item-description d-flex mr-auto">
                     <div class="bg-faded p-5 rounded">
                         <p class="mb-0">Contamos con la capacidad de desarrollar aplicaciones para todo tipo de necesidad empresarial, la misma con todos los protocolos y estándares requeridos. Brindando así seguridad y rendimiento a cada uno de nuestros clientes.</p>

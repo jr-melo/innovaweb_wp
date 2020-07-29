@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="/wp-content/themes/innovaweb_theme/img/logo.png" type="image/png">
+    <link rel="icon" href="<?php echo site_url("/wp-content/themes/innovaweb_theme/img/logo.png")?>" type="image/png">
     <title>Innova Web</title>
 
     <?php wp_head(); ?>
@@ -20,7 +20,7 @@
         <div class="container">
         
             <a class="navbar-brand" href="<?php echo site_url("/")?>">
-                <img class="logoimg" src="/wp-content/themes/innovaweb_theme/img/Logo1.png" alt="">
+                <img class="logoimg" src="<?php echo site_url("/wp-content/themes/innovaweb_theme/img/logo3.png")?>" alt="">
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('/wp-content/themes/innovaweb_theme/img/portada.jpg')">
+                <div class="carousel-item active" style="background-image: url('<?php echo site_url("/wp-content/themes/innovaweb_theme/img/portada.jpg")?>')">
                     <div class="carousel-caption d-none d-md-block"></div>
                 </div>
             </div>
@@ -67,6 +67,6 @@
     .logoimg {
         position: relative;
         z-index: 0;
-        max-width: 125px;
+        max-width: 130px;
     }
     </style>
